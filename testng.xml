@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="TvGo">
+    <test name="Validate-Content-Daily" enabled="true" >
+        <classes>
+            <class name="steps.SiteMap_Step">
+                <methods>
+                    <include name="validaciondeNotas"></include>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+</suite>
